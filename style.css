@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=PT+Sans&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background: #4024A6;
+    color: #1C2559;
+}
+
+p{
+    margin: 5px;
+}
+
+.icone-game{
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.topo-site {
+    display: flex;
+    word-spacing: 5px;
+    margin-right: 90px;
+    justify-content: space-between;
+}
+
+.op{
+   margin-top: 10px;
+   display: flex;
+   text-decoration: none;
+}
+
+.topo-site > p {
+    color: #A42EF2;
+}
+
+.login{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.login-esquerda > img{
+    width: 40vw;
+    height: 55vh;
+    margin-left: 20px;
+
+}
+
+.login-direita{
+    background: #A42EF2;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 2px 9px #1C2559;
+    height: 50vh;
+    width: 40vw;
+    text-align: center;
+}
+
+.login-direita > h1{
+    text-align: center;
+}
+
+.login-direita > button{
+    justify-content: center;
+    width: 27vw;
+    height: 8vh;
+    background: #4024A6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: 800;
+
+}
+
+.input{
+    width: 26vw;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+footer{
+    text-align: center;
+    color: black;
+}
+
+@media only screen and (max-width: 600px){
+    .login{
+        width: 85%;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px){
+    .login{
+        flex-direction: column;
+    }
+    .login-esquerda > h1{
+        display: none;
+    }
+    .login-esquerda{
+        width: 100%;
+        height: auto;
+    }
+
+    .login-direita{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .login-esquerda{
+        width: 37vh;
+        display: none;
+    }
+}
+
