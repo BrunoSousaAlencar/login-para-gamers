@@ -50,6 +50,7 @@ a:hover{
     justify-content: space-between;
     margin: 30px;
     margin-left: 22px;
+    outline: 0;
 }
 
 .login-esquerda > img{
@@ -96,9 +97,10 @@ a:hover{
     margin-bottom: 10px;
     margin-top: 0;
     box-shadow: 0;
-    border: 0 none;
-    outline: 0;
+    border: unset;
+    outline: none;
     border-radius: 2px;
+
 }
 
 footer > p{
