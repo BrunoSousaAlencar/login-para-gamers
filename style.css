@@ -29,8 +29,20 @@ p{
    text-decoration: none;
 }
 
-.topo-site > p {
-    color: #A42EF2;
+a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    margin-top: 100px;
+    margin: 5px 5px;
+    padding: 5px;
+}
+
+a:hover{
+    color: #A42EF2;  
+    background-color: #2e1291;
+    border-radius: 2px;
+    margin: 5px 5px;
 }
 
 .login{
@@ -59,6 +71,7 @@ p{
 
 .login-direita > h1{
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .login-direita > button{
@@ -66,36 +79,45 @@ p{
     width: 27vw;
     height: 8vh;
     background: #4024A6;
+    box-shadow: 1px 1px 9px #1C2559;
     color: white;
     border: none;
     cursor: pointer;
     margin: 10px;
     border-radius: 5px;
     font-weight: 800;
+}
 
+.login-direita > button:hover{
+    background: #1C2559;
 }
 
 .input{
     width: 26vw;
     margin-bottom: 10px;
     margin-top: 0;
+    box-shadow: 0;
+    border: 0 none;
+    outline: 0;
+    border-radius: 2px;
 }
 
-footer{
+footer > p{
     text-align: center;
     color: black;
+    text-decoration: none;
+    margin-top: 100px;
+    justify-items: end;
+}
+
+footer > p > a:hover{
+    color: #A42EF2;  
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 600px){
     .login{
-        width: 85%;
-    }
-
-}
-
-
-@media only screen and (max-width: 600px){
-    .login{
+        width: 79%;
         flex-direction: column;
     }
     .login-esquerda > h1{
@@ -115,6 +137,10 @@ footer{
     .login-esquerda{
         width: 37vh;
         display: none;
+    }
+
+    .input{
+        width: 62vw;
     }
 }
 
